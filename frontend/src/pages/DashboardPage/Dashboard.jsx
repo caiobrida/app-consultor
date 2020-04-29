@@ -83,8 +83,8 @@ export default function Dashboard() {
               {sortColumn.order === "asc" ? "+" : "-"}
             </span>
           </span>
-          <Input label="Text" value={inputText} handleChange={setInputText} />
           <Input label="User" value={inputUser} handleChange={setInputUser} />
+          <Input label="Text" value={inputText} handleChange={setInputText} />
         </div>
         <section>
           <MessagesList
