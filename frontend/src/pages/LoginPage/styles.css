@@ -1,0 +1,72 @@
+#loginForm {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loginForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border: 1px solid #14feec;
+}
+
+#loginForm .errorSpan {
+  background: #0d7377;
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+}
+
+#loginForm form h1 {
+  color: #14feec;
+  font-weight: bold;
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+#loginForm form .inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+form .inputGroup span {
+  color: #14feec;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+form .inputGroup input {
+  background: transparent;
+  border-style: none;
+  font-size: 19px;
+  border-bottom: 1px solid #14feec;
+  color: #fff;
+  padding: 5px;
+}
+
+form button {
+  background: #0d7377;
+  border-style: none;
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding: 7px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background: #14feec;
+  color: #000;
+}
